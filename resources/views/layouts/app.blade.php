@@ -59,9 +59,11 @@
                            @if(Auth::user()->admin)
                                 <li><a href="{{route('users')}}">Users</a></li>
                                 <li><a href="{{route('users.create')}}">Users Create</a></li>
+                                <li><a href="{{route('settings')}}">Settings</a></li>
                            @endif
-                           <li><a href="{{route('user.profile')}}">Profile</a></li>
-                       @endif
+                                <li><a href="{{route('user.profile')}}">Profile</a></li>
+                           @endif
+
                     </ul>
 
                     <!-- Right Side Of Navbar -->
